@@ -1,6 +1,7 @@
 # Introduction
 
 This tutorial explores the realm of time series forecasting with a comprehensive weather dataset provided by [Max-Planck-Institut für Biogeochemie](https://www.bgc-jena.mpg.de/wetter/) spanning various meteorological parameters like`air temperature`, `atmospheric pressure`, and `humidity`, the dataset captures readings at 10-minute intervals, commencing in 2003. Our focus will be on the subset of data from 2009 to 2016.
+____________________________________________________________
 
 Our Task is to predict the `Temperature` one day in advance, given the weather conditions for the past day. We will be using the `Temperature` column as our target variable.
 
