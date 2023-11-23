@@ -102,10 +102,10 @@ The hyperparameters that we will tune are:
 
 The results of the hyperparameter tuning are:
 
-- `hidden_dim`: 64
+- `hidden_dim`: 32
 - `layer_dim`: 2
-- `learning_rate`: 0.01
-- `num_epochs`: 100
-- `batch_size`: 64
+- `learning_rate`: 0.0003419217207809318
+- `num_epochs`: 20
+- `batch_size`: 32
 
-Which scored an `MSE` of $0.07$ on the validation set, and $0.07$ on the test set.
+Which scored an `MSE` of $0.077$ on the validation set, and $0.07$ on the test set.
