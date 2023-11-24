@@ -63,11 +63,11 @@ df_copy["Year cos"] = np.cos(df_copy.index.astype(np.int64) // 1e9 * (np.pi * 2 
 
 ![Time of day](./images/image-2.png) ![Day of year](./images/image-3.png)
 
-And there's no surprize that it does correlate with the `Temp` column.
+And there's no surprise that it does correlate with the `Temp` column.
 
 ## Splitting the data
 
-The last step is to split the data into training, validation and test sets. with a ratio of 70%, 15%, 15% respectively.
+The last step is to split the data into training, validation and test sets. with a ratio of 70%, 15%, and 15% respectively.
 
 As it's a time series data, we will not shuffle the data.
 
