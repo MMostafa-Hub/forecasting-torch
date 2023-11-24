@@ -37,7 +37,7 @@ Upon looking for the `df.info()` output we get the following
 - The column names are not very intuitive and we need to rename them.
 - We can see that there are no null values in the dataset.
 - The `Date Time` column is of type `object` and we need to convert it to `datetime` type.
-- The `Date Time` column is the index of the dataframe.
+- Make the `Date Time` column to be index of the dataframe.
 
 ## Data Visualizations
 
