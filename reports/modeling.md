@@ -104,7 +104,7 @@ The results of the hyperparameter tuning are:
 
 - `hidden_dim`: 32
 - `layer_dim`: 3
-- `learning_rate`: 0.00036936782596246206
+- `learning_rate`: 0.0003
 - `num_epochs`: 15
 - `batch_size`: 32
 
