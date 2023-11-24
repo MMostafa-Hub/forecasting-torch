@@ -24,7 +24,7 @@ After loading the datasets after preprocessing, we will create pytorch datasets 
     ```
 
 2. GRU Model
-    We will use a GRU model with 2 layers. Which scored an `MSE` of $0.09$ on the validation set.
+    We will use a GRU model with 2 layers. Which scored an `MSE` of $0.095$ on the validation set.
 
     ```python
     class GRUModel(nn.Module):
@@ -43,7 +43,7 @@ After loading the datasets after preprocessing, we will create pytorch datasets 
     ```
 
 3. LSTM Model
-    We will use a LSTM model with 2 layers. Which scored an `MSE` of $0.08$ on the validation set.
+    We will use a LSTM model with 2 layers. Which scored an `MSE` of $0.092$ on the validation set.
 
     ```python
     class LSTMModel(nn.Module):
@@ -65,7 +65,7 @@ After loading the datasets after preprocessing, we will create pytorch datasets 
     ```
 
 4. RNN Model
-    We will use a RNN model. Which scored an `MSE` of $0.125$ on the validation set.
+    We will use a RNN model. Which scored an `MSE` of $0.110$ on the validation set.
 
     ```python
     class RNNModel(nn.Module):
@@ -103,9 +103,9 @@ The hyperparameters that we will tune are:
 The results of the hyperparameter tuning are:
 
 - `hidden_dim`: 32
-- `layer_dim`: 2
-- `learning_rate`: 0.0003419217207809318
-- `num_epochs`: 20
+- `layer_dim`: 3
+- `learning_rate`: 0.00036936782596246206
+- `num_epochs`: 15
 - `batch_size`: 32
 
-Which scored an `MSE` of $0.077$ on the validation set, and $0.07$ on the test set.
+Which scored an `MSE` of $0.08$ on the validation set, and $0.25$ on the test set.
